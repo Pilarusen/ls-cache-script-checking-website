@@ -21,6 +21,7 @@ function traceLog(string $msg): void {
     global $TRACE_LOG_HANDLE;
     if ($TRACE_LOG_HANDLE !== null) {
         fwrite($TRACE_LOG_HANDLE, $msg . PHP_EOL);
+        fflush($TRACE_LOG_HANDLE);
     }
 }
 
@@ -206,12 +207,15 @@ function traceHeaders(string $headersOnly): void {
         'content-type',
     ];
 
+    $headers = [];
+    $statusLine = '';
+    
     foreach ($lines as $line) {
         $line = trim($line);
         if ($line === '') continue;
 
         if (strpos($line, 'HTTP/') === 0) {
-            stderr('<< ' . $line);
+            $statusLine = $line;
             continue;
         }
 
@@ -219,8 +223,16 @@ function traceHeaders(string $headersOnly): void {
         if ($pos === false) continue;
         $name = strtolower(trim(substr($line, 0, $pos)));
         if (in_array($name, $keep, true)) {
-            stderr('<< ' . $line);
+            $headers[] = $line;
         }
+    }
+    
+    if ($statusLine !== '' || !empty($headers)) {
+        $output = '<< ' . $statusLine;
+        if (!empty($headers)) {
+            $output .= ' | ' . implode(' | ', $headers);
+        }
+        stderr($output);
     }
 }
 
@@ -421,7 +433,7 @@ function runProbe(array $queue, string $method, int $concurrency, int $delayMs, 
     $total = count($queue);
     $processed = 0;
 
-    $nextProgress = 0;
+    $nextProgress = 2;
 
     $logProgress = function () use (&$nextProgress, $total, &$processed): void {
         if ($total <= 0) {
@@ -431,7 +443,7 @@ function runProbe(array $queue, string $method, int $concurrency, int $delayMs, 
         $pct = (int)floor(($processed / $total) * 100);
         if ($pct >= $nextProgress) {
             stderr(sprintf('Progress: %d/%d (%d%%)', $processed, $total, $pct));
-            $nextProgress += 2;
+            $nextProgress = $pct + 2;
         }
     };
 
@@ -477,10 +489,8 @@ function runProbe(array $queue, string $method, int $concurrency, int $delayMs, 
 
             if ($trace) {
                 $uaShort = strlen($item['ua']) > 80 ? substr($item['ua'], 0, 77) . '...' : $item['ua'];
-                stderr(sprintf('>> %s %s [%s] UA="%s"', strtoupper($method), $item['url'], strtoupper($item['variant']), $uaShort));
-                if (!empty($r['effective_url']) && $r['effective_url'] !== $item['url']) {
-                    stderr('<< Effective-URL: ' . $r['effective_url']);
-                }
+                $effectiveNote = (!empty($r['effective_url']) && $r['effective_url'] !== $item['url']) ? ' -> ' . $r['effective_url'] : '';
+                stderr(sprintf('>> %s %s [%s] UA="%s"%s', strtoupper($method), $item['url'], strtoupper($item['variant']), $uaShort, $effectiveNote));
                 traceHeaders((string)$r['headers_only']);
             }
         }
@@ -603,10 +613,8 @@ function runProbe(array $queue, string $method, int $concurrency, int $delayMs, 
             }
 
             if ($trace) {
-                stderr(sprintf('>> %s %s [%s]', strtoupper($method), $meta['url'], strtoupper($meta['variant'])));
-                if ($effectiveUrl !== '' && $effectiveUrl !== $meta['url']) {
-                    stderr('<< Effective-URL: ' . $effectiveUrl);
-                }
+                $effectiveNote = ($effectiveUrl !== '' && $effectiveUrl !== $meta['url']) ? ' -> ' . $effectiveUrl : '';
+                stderr(sprintf('>> %s %s [%s]%s', strtoupper($method), $meta['url'], strtoupper($meta['variant']), $effectiveNote));
                 traceHeaders($headersOnly);
             }
 
