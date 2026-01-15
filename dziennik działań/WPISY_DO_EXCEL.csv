@@ -1,0 +1,29 @@
+DATA;GODZINA;OPERACJA;CZAS
+2026.01.14;14:30;Analiza problemu z wydajnością - sprawdzenie logów serwera i cache, wstepna diagnoza wysokiego CPU;45
+2026.01.14;15:00;Badanie konfiguracji Cloudflare - researcz dokumentacji WAF i security rules, szukanie jak blokować boty;75
+2026.01.14;16:15;Analiza user-agentów w logach - identyfikacja botów atakujących strone, znaleziono meta-externalagent;30
+2026.01.14;17:00;Research rozwiązań blokowania FB crawlera - przegląd praktyk, porównanie Cloudflare WAF vs htaccess vs robots.txt;90
+2026.01.14;18:30;Przygotowanie instrukcji Cloudflare dla klienta - napisanie krok po kroku jak skonfigurowac reguly blokowania;60
+2026.01.15;08:00;Wysłanie instrukcji do klienta - email z konfiguracją Cloudflare i planem działań na dzisiaj;15
+2026.01.15;09:00;Analiza logów access.log - pobranie i przejrzenie, identyfikacja FB crawlera na filtrowanych URLach /shop/;30
+2026.01.15;09:15;Utworzenie baseline - skrypty PowerShell do analizy, zapis statystyk przed wdrożeniem do pliku;20
+2026.01.15;09:30;Przygotowanie reguły blokady htaccess - napisanie mod_rewrite dla FB user-agent + filter_ w query string;25
+2026.01.15;09:45;Sprawdzenie istniejącego htaccess - przegląd struktury, ustalenie miejsca wstawienia reguły;15
+2026.01.15;10:00;Konsultacja z supportem hostingu - analiza ich rekomendacji nt. Cloudflare + htaccess, wyjaśnienie;20
+2026.01.15;10:30;Test cache przed wdrożeniem - uruchomienie cache-probe.php, weryfikacja ze cache działa poprawnie;35
+2026.01.15;11:00;Wdrożenie blokady w htaccess na produkcji - dodanie reguły RewriteCond i RewriteRule na początku pliku;10
+2026.01.15;11:05;Weryfikacja natychmiastowa - sprawdzenie logów czy FB dostaje 403, potwierdzenie ze blokada działa;15
+2026.01.15;11:19;Test funkcjonalności strony - cache-probe.php na losowych URLach, sprawdzenie ze użytkownicy mają dostęp;20
+2026.01.15;11:30;Potwierdzenie efektu od klienta - kontakt z klientem, potwierdzenie spadku CPU;5
+2026.01.15;11:47;Analiza logów po wdrożeniu - przejrzenie LiteSpeed logs, weryfikacja ilości zablokowanych requestów FB;25
+2026.01.15;11:56;Test wydajności na większej próbie - cache-probe.php na 100 URLach z concurrency, sprawdzenie szybkości;40
+2026.01.15;12:00;Dokumentacja i raporty końcowe - utworzenie raportów z historią operacji i wynikami dla klienta;30
+2026.01.15;12:57;Research najlepszych praktyk blokowania botów - przegląd Perishable Press Ultimate Blacklist i htaccess.com;20
+2026.01.15;13:00;Analiza comprehensive bot list - identyfikacja 130+ złośliwych botów (scrapers, harvesters, SEO tools);25
+2026.01.15;13:10;Implementacja rozszerzonej blokady botów - dodanie HTTrack, Wget, WebCopier i innych do reguły htaccess;15
+2026.01.15;13:15;Dyskusja z klientem o zakresie blokowania - ustalenie czy blokować Google dla SEO czy nie;10
+2026.01.15;13:20;Analiza logów WebView - identyfikacja problemu 403 dla mobilnych przeglądarek i WebView;30
+2026.01.15;13:25;Diagnoza przyczyny 403 - znaleziono że wzorce Web.* w bot list blokują legalne urządzenia mobilne;20
+2026.01.15;13:30;Implementacja whitelist dla mobile - dodanie reguły z [S=1] flag dla Android/iPhone/iPad/wv;15
+2026.01.15;13:35;Testowanie rozwiązania WebView - weryfikacja że mobile browsers omijają blokadę botów;10
+2026.01.15;13:40;Finalna konfiguracja - klient zdecydował wrócić do blokady tylko Facebook, dokumentacja zmian;15
