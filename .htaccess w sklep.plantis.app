@@ -1,11 +1,8 @@
-# === CAŁKOWITA BLOKADA FACEBOOK CRAWLERÓW ===
 <IfModule mod_rewrite.c>
 RewriteEngine On
-# Blokuj WSZYSTKIE requesty od Facebook botów
-RewriteCond %{HTTP_USER_AGENT} (facebookexternalhit|meta-externalagent|Facebot) [NC]
+RewriteCond %{HTTP_USER_AGENT} (facebookexternalhit|meta-externalagent|Facebot|Amazonbot|...) [NC]
 RewriteRule .* - [R=403,L]
 </IfModule>
-# === /BLOKADA FACEBOOK ===
 
 # BEGIN Really Simple Security Redirect
 
