@@ -21,7 +21,6 @@ DATA;GODZINA;OPERACJA;CZAS
 2026.01.15;12:57;Research najlepszych praktyk blokowania botów - przegląd Perishable Press Ultimate Blacklist i htaccess.com;20
 2026.01.15;13:00;Analiza comprehensive bot list - identyfikacja 130+ złośliwych botów (scrapers, harvesters, SEO tools);25
 2026.01.15;13:10;Implementacja rozszerzonej blokady botów - dodanie HTTrack, Wget, WebCopier i innych do reguły htaccess;15
-2026.01.15;13:15;Dyskusja z klientem o zakresie blokowania - ustalenie czy blokować Google dla SEO czy nie;10
 2026.01.15;13:20;Analiza logów WebView - identyfikacja problemu 403 dla mobilnych przeglądarek i WebView;30
 2026.01.15;13:25;Diagnoza przyczyny 403 - znaleziono że wzorce Web.* w bot list blokują legalne urządzenia mobilne;20
 2026.01.15;13:30;Implementacja whitelist dla mobile - dodanie reguły z [S=1] flag dla Android/iPhone/iPad/wv;15
