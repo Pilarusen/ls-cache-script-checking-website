@@ -1,0 +1,999 @@
+01/16/26 17:35:17.714 [85.221.154.120:9783 1 pGI] End response
+--------------------------------------------------Duration: 880.52 ms------------------------------
+
+01/16/26 17:35:19.264 [92.222.104.193:11898 1 eCr] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:35:19.264 [92.222.104.193:11898 1 eCr] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,compo-sp-z-o-o
+01/16/26 17:35:19.538 [92.222.104.193:11898 1 eCr] 💵 X Cache_control -> stale
+01/16/26 17:35:19.784 [92.222.104.193:11898 1 eCr] 🔱 👒👒 Guest mode
+01/16/26 17:35:19.785 [92.222.104.193:11898 1 eCr] 🎢 init
+01/16/26 17:35:20.408 [92.222.104.193:11898 1 eCr] 💵 Cache_control init on
+01/16/26 17:35:20.752 [92.222.104.193:11898 1 eCr] [Core] Footer hook called
+01/16/26 17:35:20.802 [92.222.104.193:11898 1 eCr] [Core] Footer check passed
+01/16/26 17:35:20.803 [92.222.104.193:11898 1 eCr] [Router] get_role:
+01/16/26 17:35:20.804 [92.222.104.193:11898 1 eCr] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:35:20.804 [92.222.104.193:11898 1 eCr] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:35:20.804 [92.222.104.193:11898 1 eCr] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:35:20.804 [92.222.104.193:11898 1 eCr] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:20 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8027 [hit_incall] 7272 [hit] 0 [miss_incall] 45 [miss] 710 [set] 698 -->
+<!-- Guest Mode -->
+01/16/26 17:35:20.807 [92.222.104.193:11898 1 eCr] [Core] Footer check passed
+01/16/26 17:35:20.807 [92.222.104.193:11898 1 eCr] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:20.807 [92.222.104.193:11898 1 eCr] 📺 finalize
+01/16/26 17:35:20.810 [92.222.104.193:11898 1 eCr] [VPI] Queue is full - 500
+01/16/26 17:35:20.812 [92.222.104.193:11898 1 eCr] 🎢 start
+01/16/26 17:35:20.818 [92.222.104.193:11898 1 eCr] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:35:20.875 [92.222.104.193:11898 1 eCr] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:35:20.876 [92.222.104.193:11898 1 eCr] 🎢 Put optm data to dummy css location
+01/16/26 17:35:20.883 [92.222.104.193:11898 1 eCr] 🎢 Fallback to drop dummy CSS
+01/16/26 17:35:20.883 [92.222.104.193:11898 1 eCr] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:35:20.883 [92.222.104.193:11898 1 eCr] End response
+--------------------------------------------------Duration: 1,619.52 ms------------------------------
+
+
+
+
+
+01/16/26 17:35:27.088 [162.254.118.29:11365 1 dZO] 💓 ------POST HTTP/1.1 (HTTPS) /
+01/16/26 17:35:27.088 [162.254.118.29:11365 1 dZO] Query String: rest_route=/litespeed/v1/notify_ucss
+01/16/26 17:35:27.342 [162.254.118.29:11365 1 dZO] 💵 X Cache_control -> stale
+01/16/26 17:35:27.564 [162.254.118.29:11365 1 dZO] 🔱 👒👒 Guest mode
+01/16/26 17:35:27.565 [162.254.118.29:11365 1 dZO] 🎢 init
+01/16/26 17:35:27.829 [162.254.118.29:11365 1 dZO] 💵 Cache_control init on
+01/16/26 17:35:28.037 [162.254.118.29:11365 1 dZO] 🔱 Rest API init disabled vary change
+01/16/26 17:35:28.118 [162.254.118.29:11365 1 dZO] ❄️ ✅ Passed Cloud IP verification
+01/16/26 17:35:28.118 [162.254.118.29:11365 1 dZO] ☎️ notify_ucss
+01/16/26 17:35:28.119 [162.254.118.29:11365 1 dZO] [UCSS] notify() data --- array (
+'_res' => 'ok',
+'data' =>
+array (
+0 =>
+array (
+'data_ucss' => '@-webkit-keyframes fadeIn{0%{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}@keyframes fadeIn{0%{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}@-webkit-keyframes et-fadeIn{0%{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}@keyframes et-fadeIn{0%{opacity:0;visibility:hidden}to{opacity:1;visibility:visible}}@-webkit-keyframes rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}to{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}to{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@-webkit-keyframes et-rtl{0%{-webkit-transform:translateX(7px);transform:translateX(7px)}to{-webkit-transform:translateX(0);transform:transl...',
+'is_mobile' => true,
+'queue_k' => '+ismobile+webp https://sklep.plantis.app/produkt/petunia-zwisajaca-velvet-purple-f1-nasiona-kiepenkerl/',
+'request_url' => 'https://sklep.plantis.app/produkt/petunia-zwisajaca-velvet-purple-f1-nasiona-kiepenkerl/',
+),
+),
+)
+01/16/26 17:35:28.122 [162.254.118.29:11365 1 dZO] 🧹 added _UCSS.60de9a315e00e8206f1c0598fb8f5b89
+01/16/26 17:35:28.123 [162.254.118.29:11365 1 dZO] 🧹 X-LiteSpeed-Purge: public,stale,34f_UCSS.60de9a315e00e8206f1c0598fb8f5b89
+01/16/26 17:35:28.123 [162.254.118.29:11365 1 dZO] [UCSS] notify data handled, unset queue [q_k] +ismobile+webp https://sklep.plantis.app/produkt/petunia-zwisajaca-velvet-purple-f1-nasiona-kiepenkerl/
+01/16/26 17:35:28.124 [162.254.118.29:11365 1 dZO] [UCSS] notified
+01/16/26 17:35:28.126 [162.254.118.29:11365 1 dZO] ❄️ ✅ Passed Cloud IP verification
+01/16/26 17:35:28.127 [162.254.118.29:11365 1 dZO] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:35:28.128 [162.254.118.29:11365 1 dZO] 💵 X Cache_control -> no Cache
+01/16/26 17:35:28.128 [162.254.118.29:11365 1 dZO] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:35:28.128 [162.254.118.29:11365 1 dZO] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:35:28.128 [162.254.118.29:11365 1 dZO] 💰 X-LiteSpeed-Purge: public,stale,34f_UCSS.60de9a315e00e8206f1c0598fb8f5b89
+01/16/26 17:35:28.129 [162.254.118.29:11365 1 dZO] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:28 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- X-LiteSpeed-Purge: public,stale,34f_UCSS.60de9a315e00e8206f1c0598fb8f5b89 -->
+<!-- Object Cache [total] 2358 [hit_incall] 2187 [hit] 0 [miss_incall] 14 [miss] 157 [set] 141 -->
+<!-- Guest Mode -->
+01/16/26 17:35:28.130 [162.254.118.29:11365 1 dZO] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:28.130 [162.254.118.29:11365 1 dZO] 🎢 bypass: Not frontend HTML type
+01/16/26 17:35:28.130 [162.254.118.29:11365 1 dZO] 🎢 Fallback to drop dummy CSS
+01/16/26 17:35:28.130 [162.254.118.29:11365 1 dZO] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:35:28.130 [162.254.118.29:11365 1 dZO] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: application/json; charset=UTF-8',
+2 => 'X-Robots-Tag: noindex',
+3 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+4 => 'X-Content-Type-Options: nosniff',
+5 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+6 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+7 => 'Allow: POST',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+10 => 'X-LiteSpeed-Purge: public,stale,34f_UCSS.60de9a315e00e8206f1c0598fb8f5b89',
+)
+01/16/26 17:35:28.131 [162.254.118.29:11365 1 dZO] End response
+--------------------------------------------------Duration: 1,043.50 ms------------------------------
+
+
+
+
+
+01/16/26 17:35:32.409 [5.39.109.162:14243 1 VSD] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:35:32.409 [5.39.109.162:14243 1 VSD] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,browin-sp-z-o-o-sp-k
+01/16/26 17:35:32.703 [5.39.109.162:14243 1 VSD] 💵 X Cache_control -> stale
+01/16/26 17:35:32.937 [5.39.109.162:14243 1 VSD] 🔱 👒👒 Guest mode
+01/16/26 17:35:32.937 [5.39.109.162:14243 1 VSD] 🎢 init
+01/16/26 17:35:33.499 [5.39.109.162:14243 1 VSD] 💵 Cache_control init on
+01/16/26 17:35:33.795 [5.39.109.162:14243 1 VSD] [Core] Footer hook called
+01/16/26 17:35:33.841 [5.39.109.162:14243 1 VSD] [Core] Footer check passed
+01/16/26 17:35:33.842 [5.39.109.162:14243 1 VSD] [Router] get_role:
+01/16/26 17:35:33.843 [5.39.109.162:14243 1 VSD] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:35:33.843 [5.39.109.162:14243 1 VSD] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:35:33.843 [5.39.109.162:14243 1 VSD] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:35:33.844 [5.39.109.162:14243 1 VSD] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:33 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8031 [hit_incall] 7274 [hit] 0 [miss_incall] 45 [miss] 712 [set] 700 -->
+<!-- Guest Mode -->
+01/16/26 17:35:33.845 [5.39.109.162:14243 1 VSD] [Core] Footer check passed
+01/16/26 17:35:33.845 [5.39.109.162:14243 1 VSD] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:33.846 [5.39.109.162:14243 1 VSD] 📺 finalize
+01/16/26 17:35:33.847 [5.39.109.162:14243 1 VSD] [VPI] Queue is full - 500
+01/16/26 17:35:33.849 [5.39.109.162:14243 1 VSD] 🎢 start
+01/16/26 17:35:33.854 [5.39.109.162:14243 1 VSD] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:35:33.902 [5.39.109.162:14243 1 VSD] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:35:33.903 [5.39.109.162:14243 1 VSD] 🎢 Put optm data to dummy css location
+01/16/26 17:35:33.907 [5.39.109.162:14243 1 VSD] 🎢 Fallback to drop dummy CSS
+01/16/26 17:35:33.908 [5.39.109.162:14243 1 VSD] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:35:33.908 [5.39.109.162:14243 1 VSD] End response
+--------------------------------------------------Duration: 1,500.05 ms------------------------------
+
+01/16/26 17:35:34.568 [20.101.166.13:12885 1 AKc] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:35:34.568 [20.101.166.13:12885 1 AKc] Query String:
+01/16/26 17:35:34.655 [20.101.166.13:11696 1 tdi] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:35:34.655 [20.101.166.13:11696 1 tdi] Query String:
+01/16/26 17:35:34.857 [20.101.166.13:12885 1 AKc] 💵 X Cache_control -> stale
+01/16/26 17:35:34.941 [20.101.166.13:11696 1 tdi] 💵 X Cache_control -> stale
+01/16/26 17:35:35.194 [20.101.166.13:12885 1 AKc] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:35:35.194 [20.101.166.13:12885 1 AKc] [Router] get_role: administrator
+01/16/26 17:35:35.229 [20.101.166.13:11696 1 tdi] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:35:35.230 [20.101.166.13:11696 1 tdi] [Router] get_role: administrator
+01/16/26 17:35:35.466 [20.101.166.13:12885 1 AKc] 💵 Cache_control init on
+01/16/26 17:35:35.565 [20.101.166.13:11696 1 tdi] 💵 Cache_control init on
+01/16/26 17:35:35.605 [20.101.166.13:12885 1 AKc] 🔱 Rest API init disabled vary change
+01/16/26 17:35:35.705 [20.101.166.13:12885 1 AKc] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:35:35.706 [20.101.166.13:12885 1 AKc] 💵 X Cache_control -> no Cache
+01/16/26 17:35:35.706 [20.101.166.13:12885 1 AKc] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:35:35.706 [20.101.166.13:12885 1 AKc] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:35:35.707 [20.101.166.13:12885 1 AKc] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:35:35.707 [20.101.166.13:12885 1 AKc] 🔱 uid: 1
+01/16/26 17:35:35.707 [20.101.166.13:12885 1 AKc] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:35 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 2067 [hit_incall] 1891 [hit] 0 [miss_incall] 18 [miss] 158 [set] 147 -->
+01/16/26 17:35:35.708 [20.101.166.13:12885 1 AKc] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:35.708 [20.101.166.13:12885 1 AKc] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:35:35.708 [20.101.166.13:12885 1 AKc] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:35:35.708 [20.101.166.13:12885 1 AKc] End response
+--------------------------------------------------Duration: 1,141.49 ms------------------------------
+
+01/16/26 17:35:35.714 [20.101.166.13:11696 1 tdi] 🔱 Rest API init disabled vary change
+01/16/26 17:35:35.884 [20.101.166.13:11696 1 tdi] [3rd] Woo Purge [pid] 3913
+01/16/26 17:35:35.884 [20.101.166.13:11696 1 tdi] [3rd] Woo No purge needed [option] 2
+01/16/26 17:35:35.950 [20.101.166.13:11696 1 tdi] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:35:35.950 [20.101.166.13:11696 1 tdi] 💵 X Cache_control -> no Cache
+01/16/26 17:35:35.951 [20.101.166.13:11696 1 tdi] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:35:35.951 [20.101.166.13:11696 1 tdi] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:35:35.951 [20.101.166.13:11696 1 tdi] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:35:35.952 [20.101.166.13:11696 1 tdi] 🔱 uid: 1
+01/16/26 17:35:35.952 [20.101.166.13:11696 1 tdi] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:35 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3016 [hit_incall] 2757 [hit] 0 [miss_incall] 23 [miss] 236 [set] 256 -->
+01/16/26 17:35:35.952 [20.101.166.13:11696 1 tdi] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:35.952 [20.101.166.13:11696 1 tdi] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:35:35.953 [20.101.166.13:11696 1 tdi] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:35:35.953 [20.101.166.13:11696 1 tdi] End response
+--------------------------------------------------Duration: 1,298.40 ms------------------------------
+
+
+
+
+
+01/16/26 17:35:41.552 [51.75.236.143:11419 1 SXi] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:35:41.552 [51.75.236.143:11419 1 SXi] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,bros-sp-z-o-o-sp-k
+01/16/26 17:35:41.813 [51.75.236.143:11419 1 SXi] 💵 X Cache_control -> stale
+01/16/26 17:35:42.038 [51.75.236.143:11419 1 SXi] 🔱 👒👒 Guest mode
+01/16/26 17:35:42.039 [51.75.236.143:11419 1 SXi] 🎢 init
+01/16/26 17:35:42.628 [51.75.236.143:11419 1 SXi] 💵 Cache_control init on
+01/16/26 17:35:42.949 [51.75.236.143:11419 1 SXi] [Core] Footer hook called
+01/16/26 17:35:42.994 [51.75.236.143:11419 1 SXi] [Core] Footer check passed
+01/16/26 17:35:42.995 [51.75.236.143:11419 1 SXi] [Router] get_role:
+01/16/26 17:35:42.996 [51.75.236.143:11419 1 SXi] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:35:42.996 [51.75.236.143:11419 1 SXi] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:35:42.996 [51.75.236.143:11419 1 SXi] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:35:42.997 [51.75.236.143:11419 1 SXi] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:42 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8047 [hit_incall] 7287 [hit] 0 [miss_incall] 50 [miss] 710 [set] 700 -->
+<!-- Guest Mode -->
+01/16/26 17:35:42.998 [51.75.236.143:11419 1 SXi] [Core] Footer check passed
+01/16/26 17:35:42.999 [51.75.236.143:11419 1 SXi] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:42.999 [51.75.236.143:11419 1 SXi] 📺 finalize
+01/16/26 17:35:43.001 [51.75.236.143:11419 1 SXi] [VPI] Queue is full - 500
+01/16/26 17:35:43.002 [51.75.236.143:11419 1 SXi] 🎢 start
+01/16/26 17:35:43.009 [51.75.236.143:11419 1 SXi] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:35:43.060 [51.75.236.143:11419 1 SXi] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:35:43.061 [51.75.236.143:11419 1 SXi] 🎢 Put optm data to dummy css location
+01/16/26 17:35:43.066 [51.75.236.143:11419 1 SXi] 🎢 Fallback to drop dummy CSS
+01/16/26 17:35:43.066 [51.75.236.143:11419 1 SXi] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:35:43.066 [51.75.236.143:11419 1 SXi] End response
+--------------------------------------------------Duration: 1,515.06 ms------------------------------
+
+01/16/26 17:35:44.553 [20.101.166.13:11415 1 EuX] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:35:44.553 [20.101.166.13:11415 1 EuX] Query String:
+01/16/26 17:35:44.834 [20.101.166.13:11415 1 EuX] 💵 X Cache_control -> stale
+01/16/26 17:35:45.128 [20.101.166.13:11415 1 EuX] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:35:45.128 [20.101.166.13:11415 1 EuX] [Router] get_role: administrator
+01/16/26 17:35:45.428 [20.101.166.13:11415 1 EuX] 💵 Cache_control init on
+01/16/26 17:35:45.546 [20.101.166.13:11415 1 EuX] 🔱 Rest API init disabled vary change
+01/16/26 17:35:45.732 [20.101.166.13:11415 1 EuX] [3rd] Woo Purge [pid] 4789
+01/16/26 17:35:45.732 [20.101.166.13:11415 1 EuX] [3rd] Woo No purge needed [option] 2
+01/16/26 17:35:45.807 [20.101.166.13:11415 1 EuX] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:35:45.807 [20.101.166.13:11415 1 EuX] 💵 X Cache_control -> no Cache
+01/16/26 17:35:45.807 [20.101.166.13:11415 1 EuX] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:35:45.808 [20.101.166.13:11415 1 EuX] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:35:45.808 [20.101.166.13:11415 1 EuX] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:35:45.808 [20.101.166.13:11415 1 EuX] 🔱 uid: 1
+01/16/26 17:35:45.808 [20.101.166.13:11415 1 EuX] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:45 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3126 [hit_incall] 2857 [hit] 0 [miss_incall] 26 [miss] 243 [set] 265 -->
+01/16/26 17:35:45.809 [20.101.166.13:11415 1 EuX] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:45.809 [20.101.166.13:11415 1 EuX] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:35:45.809 [20.101.166.13:11415 1 EuX] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:35:45.809 [20.101.166.13:11415 1 EuX] End response
+--------------------------------------------------Duration: 1,257.08 ms------------------------------
+
+
+
+
+
+01/16/26 17:35:55.773 [51.75.236.146:12726 1 rX2] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:35:55.773 [51.75.236.146:12726 1 rX2] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,alvanaeko
+01/16/26 17:35:56.045 [51.75.236.146:12726 1 rX2] 💵 X Cache_control -> stale
+01/16/26 17:35:56.286 [51.75.236.146:12726 1 rX2] 🔱 👒👒 Guest mode
+01/16/26 17:35:56.286 [51.75.236.146:12726 1 rX2] 🎢 init
+01/16/26 17:35:56.875 [51.75.236.146:12726 1 rX2] 💵 Cache_control init on
+01/16/26 17:35:57.189 [51.75.236.146:12726 1 rX2] [Core] Footer hook called
+01/16/26 17:35:57.237 [51.75.236.146:12726 1 rX2] [Core] Footer check passed
+01/16/26 17:35:57.238 [51.75.236.146:12726 1 rX2] [Router] get_role:
+01/16/26 17:35:57.239 [51.75.236.146:12726 1 rX2] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:35:57.239 [51.75.236.146:12726 1 rX2] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:35:57.239 [51.75.236.146:12726 1 rX2] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:35:57.240 [51.75.236.146:12726 1 rX2] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:35:57 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8065 [hit_incall] 7304 [hit] 0 [miss_incall] 50 [miss] 711 [set] 701 -->
+<!-- Guest Mode -->
+01/16/26 17:35:57.241 [51.75.236.146:12726 1 rX2] [Core] Footer check passed
+01/16/26 17:35:57.241 [51.75.236.146:12726 1 rX2] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:35:57.242 [51.75.236.146:12726 1 rX2] 📺 finalize
+01/16/26 17:35:57.243 [51.75.236.146:12726 1 rX2] [VPI] Queue is full - 500
+01/16/26 17:35:57.244 [51.75.236.146:12726 1 rX2] 🎢 start
+01/16/26 17:35:57.250 [51.75.236.146:12726 1 rX2] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:35:57.303 [51.75.236.146:12726 1 rX2] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:35:57.304 [51.75.236.146:12726 1 rX2] 🎢 Put optm data to dummy css location
+01/16/26 17:35:57.310 [51.75.236.146:12726 1 rX2] 🎢 Fallback to drop dummy CSS
+01/16/26 17:35:57.310 [51.75.236.146:12726 1 rX2] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:35:57.310 [51.75.236.146:12726 1 rX2] End response
+--------------------------------------------------Duration: 1,538.66 ms------------------------------
+
+
+
+
+
+01/16/26 17:36:04.726 [20.101.166.13:11201 1 EYj] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:04.726 [20.101.166.13:11201 1 EYj] Query String:
+01/16/26 17:36:04.975 [20.101.166.13:13207 1 0AF] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:04.975 [20.101.166.13:13207 1 0AF] Query String:
+01/16/26 17:36:05.040 [20.101.166.13:11201 1 EYj] 💵 X Cache_control -> stale
+01/16/26 17:36:05.294 [20.101.166.13:13207 1 0AF] 💵 X Cache_control -> stale
+01/16/26 17:36:05.358 [20.101.166.13:11201 1 EYj] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:05.359 [20.101.166.13:11201 1 EYj] [Router] get_role: administrator
+01/16/26 17:36:05.574 [20.101.166.13:13207 1 0AF] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:05.575 [20.101.166.13:13207 1 0AF] [Router] get_role: administrator
+01/16/26 17:36:05.706 [20.101.166.13:11201 1 EYj] 💵 Cache_control init on
+01/16/26 17:36:05.828 [20.101.166.13:11201 1 EYj] 🔱 Rest API init disabled vary change
+01/16/26 17:36:05.887 [20.101.166.13:13207 1 0AF] 💵 Cache_control init on
+01/16/26 17:36:05.985 [20.101.166.13:11201 1 EYj] [3rd] Woo Purge [pid] 6772
+01/16/26 17:36:05.986 [20.101.166.13:11201 1 EYj] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:06.009 [20.101.166.13:13207 1 0AF] 🔱 Rest API init disabled vary change
+01/16/26 17:36:06.082 [20.101.166.13:11201 1 EYj] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:06.082 [20.101.166.13:11201 1 EYj] 💵 X Cache_control -> no Cache
+01/16/26 17:36:06.083 [20.101.166.13:11201 1 EYj] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:06.083 [20.101.166.13:11201 1 EYj] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:06.083 [20.101.166.13:11201 1 EYj] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:06.083 [20.101.166.13:11201 1 EYj] 🔱 uid: 1
+01/16/26 17:36:06.084 [20.101.166.13:11201 1 EYj] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:06 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3019 [hit_incall] 2759 [hit] 0 [miss_incall] 23 [miss] 237 [set] 259 -->
+01/16/26 17:36:06.084 [20.101.166.13:11201 1 EYj] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:06.084 [20.101.166.13:11201 1 EYj] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:06.084 [20.101.166.13:11201 1 EYj] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:06.085 [20.101.166.13:11201 1 EYj] End response
+--------------------------------------------------Duration: 1,359.38 ms------------------------------
+
+01/16/26 17:36:06.173 [20.101.166.13:13207 1 0AF] [3rd] Woo Purge [pid] 6753
+01/16/26 17:36:06.174 [20.101.166.13:13207 1 0AF] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:06.222 [20.101.166.13:13207 1 0AF] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:06.223 [20.101.166.13:13207 1 0AF] 💵 X Cache_control -> no Cache
+01/16/26 17:36:06.223 [20.101.166.13:13207 1 0AF] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:06.223 [20.101.166.13:13207 1 0AF] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:06.224 [20.101.166.13:13207 1 0AF] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:06.224 [20.101.166.13:13207 1 0AF] 🔱 uid: 1
+01/16/26 17:36:06.224 [20.101.166.13:13207 1 0AF] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:06 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3011 [hit_incall] 2753 [hit] 0 [miss_incall] 23 [miss] 235 [set] 257 -->
+01/16/26 17:36:06.225 [20.101.166.13:13207 1 0AF] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:06.225 [20.101.166.13:13207 1 0AF] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:06.225 [20.101.166.13:13207 1 0AF] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:06.225 [20.101.166.13:13207 1 0AF] End response
+--------------------------------------------------Duration: 1,250.74 ms------------------------------
+
+01/16/26 17:36:08.553 [92.222.104.194:12591 1 0qA] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:36:08.553 [92.222.104.194:12591 1 0qA] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,agropak
+01/16/26 17:36:08.840 [92.222.104.194:12591 1 0qA] 💵 X Cache_control -> stale
+01/16/26 17:36:09.078 [92.222.104.194:12591 1 0qA] 🔱 👒👒 Guest mode
+01/16/26 17:36:09.079 [92.222.104.194:12591 1 0qA] 🎢 init
+01/16/26 17:36:09.402 [85.208.96.202:9663 1 nXP] 💓 ------GET HTTP/1.1 (HTTPS) /shop/
+01/16/26 17:36:09.402 [85.208.96.202:9663 1 nXP] Query String: filter_cat=dom-i-ogrod%2Cweze%2Cmuchy-i-meszki
+01/16/26 17:36:09.675 [85.208.96.202:9663 1 nXP] 💵 X Cache_control -> stale
+01/16/26 17:36:09.711 [92.222.104.194:12591 1 0qA] 💵 Cache_control init on
+01/16/26 17:36:09.921 [85.208.96.202:9663 1 nXP] 🔱 👒👒 Guest mode
+01/16/26 17:36:09.922 [85.208.96.202:9663 1 nXP] 🎢 init
+01/16/26 17:36:10.030 [92.222.104.194:12591 1 0qA] [Core] Footer hook called
+01/16/26 17:36:10.074 [92.222.104.194:12591 1 0qA] [Core] Footer check passed
+01/16/26 17:36:10.076 [92.222.104.194:12591 1 0qA] [Router] get_role:
+01/16/26 17:36:10.077 [92.222.104.194:12591 1 0qA] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:36:10.077 [92.222.104.194:12591 1 0qA] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:10.077 [92.222.104.194:12591 1 0qA] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:36:10.078 [92.222.104.194:12591 1 0qA] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:10 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8065 [hit_incall] 7304 [hit] 0 [miss_incall] 50 [miss] 711 [set] 701 -->
+<!-- Guest Mode -->
+01/16/26 17:36:10.079 [92.222.104.194:12591 1 0qA] [Core] Footer check passed
+01/16/26 17:36:10.080 [92.222.104.194:12591 1 0qA] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:10.080 [92.222.104.194:12591 1 0qA] 📺 finalize
+01/16/26 17:36:10.081 [92.222.104.194:12591 1 0qA] [VPI] Queue is full - 500
+01/16/26 17:36:10.083 [92.222.104.194:12591 1 0qA] 🎢 start
+01/16/26 17:36:10.089 [92.222.104.194:12591 1 0qA] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:36:10.148 [92.222.104.194:12591 1 0qA] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:36:10.150 [92.222.104.194:12591 1 0qA] 🎢 Put optm data to dummy css location
+01/16/26 17:36:10.156 [92.222.104.194:12591 1 0qA] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:10.156 [92.222.104.194:12591 1 0qA] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:36:10.157 [92.222.104.194:12591 1 0qA] End response
+--------------------------------------------------Duration: 1,604.51 ms------------------------------
+
+01/16/26 17:36:10.549 [85.208.96.202:9663 1 nXP] 💵 Cache_control init on
+01/16/26 17:36:10.844 [85.208.96.202:9663 1 nXP] [Core] Footer hook called
+01/16/26 17:36:10.884 [85.208.96.202:9663 1 nXP] [Core] Footer check passed
+01/16/26 17:36:10.885 [85.208.96.202:9663 1 nXP] [Router] get_role:
+01/16/26 17:36:10.885 [85.208.96.202:9663 1 nXP] 💰 [Tag] Add --- WC_S
+01/16/26 17:36:10.886 [85.208.96.202:9663 1 nXP] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:10.886 [85.208.96.202:9663 1 nXP] 💰 X-LiteSpeed-Tag: 34f_WC_S,34f_archive,34f_URL./shop/,34f_PT.product,34f_guest,34f_
+01/16/26 17:36:10.886 [85.208.96.202:9663 1 nXP] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:10 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_S,34f_archive,34f_URL./shop/,34f_PT.product,34f_guest,34f_ -->
+<!-- Object Cache [total] 8094 [hit_incall] 7456 [hit] 0 [miss_incall] 49 [miss] 589 [set] 579 -->
+<!-- Guest Mode -->
+01/16/26 17:36:10.888 [85.208.96.202:9663 1 nXP] [Core] Footer check passed
+01/16/26 17:36:10.888 [85.208.96.202:9663 1 nXP] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:10.888 [85.208.96.202:9663 1 nXP] 📺 finalize
+01/16/26 17:36:10.889 [85.208.96.202:9663 1 nXP] [VPI] Queue is full - 500
+01/16/26 17:36:10.891 [85.208.96.202:9663 1 nXP] 🎢 start
+01/16/26 17:36:10.896 [85.208.96.202:9663 1 nXP] 💰 [Tag] Add --- MIN.dc8b21218d5e3fc1a2fbe3ae4e286822.css
+01/16/26 17:36:10.939 [85.208.96.202:9663 1 nXP] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:36:10.941 [85.208.96.202:9663 1 nXP] 🎢 Put optm data to dummy css location
+01/16/26 17:36:10.946 [85.208.96.202:9663 1 nXP] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:10.947 [85.208.96.202:9663 1 nXP] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+4 => 'X-LiteSpeed-Tag: 34f_WC_S,34f_archive,34f_URL./shop/,34f_PT.product,34f_guest,34f_,34f_MIN.dc8b21218d5e3fc1a2fbe3ae4e286822.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:36:10.947 [85.208.96.202:9663 1 nXP] End response
+--------------------------------------------------Duration: 1,546.14 ms------------------------------
+
+
+
+
+
+01/16/26 17:36:14.920 [20.101.166.13:13042 1 DUo] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:14.920 [20.101.166.13:13042 1 DUo] Query String:
+01/16/26 17:36:15.194 [20.101.166.13:13042 1 DUo] 💵 X Cache_control -> stale
+01/16/26 17:36:15.456 [20.101.166.13:13042 1 DUo] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:15.457 [20.101.166.13:13042 1 DUo] [Router] get_role: administrator
+01/16/26 17:36:15.759 [20.101.166.13:13042 1 DUo] 💵 Cache_control init on
+01/16/26 17:36:15.882 [20.101.166.13:13042 1 DUo] 🔱 Rest API init disabled vary change
+01/16/26 17:36:15.963 [20.101.166.13:14002 1 ZFX] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:15.963 [20.101.166.13:14002 1 ZFX] Query String:
+01/16/26 17:36:16.062 [20.101.166.13:13042 1 DUo] [3rd] Woo Purge [pid] 7553
+01/16/26 17:36:16.062 [20.101.166.13:13042 1 DUo] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:16.141 [20.101.166.13:13042 1 DUo] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:16.141 [20.101.166.13:13042 1 DUo] 💵 X Cache_control -> no Cache
+01/16/26 17:36:16.142 [20.101.166.13:13042 1 DUo] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:16.142 [20.101.166.13:13042 1 DUo] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:16.142 [20.101.166.13:13042 1 DUo] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:16.142 [20.101.166.13:13042 1 DUo] 🔱 uid: 1
+01/16/26 17:36:16.143 [20.101.166.13:13042 1 DUo] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:16 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3013 [hit_incall] 2753 [hit] 0 [miss_incall] 23 [miss] 237 [set] 259 -->
+01/16/26 17:36:16.143 [20.101.166.13:13042 1 DUo] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:16.143 [20.101.166.13:13042 1 DUo] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:16.144 [20.101.166.13:13042 1 DUo] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:16.145 [20.101.166.13:13042 1 DUo] End response
+--------------------------------------------------Duration: 1,225.12 ms------------------------------
+
+01/16/26 17:36:16.261 [20.101.166.13:14002 1 ZFX] 💵 X Cache_control -> stale
+01/16/26 17:36:16.524 [20.101.166.13:14002 1 ZFX] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:16.525 [20.101.166.13:14002 1 ZFX] [Router] get_role: administrator
+01/16/26 17:36:16.802 [20.101.166.13:14002 1 ZFX] 💵 Cache_control init on
+01/16/26 17:36:16.919 [20.101.166.13:14002 1 ZFX] 🔱 Rest API init disabled vary change
+01/16/26 17:36:17.100 [20.101.166.13:14002 1 ZFX] [3rd] Woo Purge [pid] 11043
+01/16/26 17:36:17.100 [20.101.166.13:14002 1 ZFX] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:17.158 [20.101.166.13:14002 1 ZFX] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:17.159 [20.101.166.13:14002 1 ZFX] 💵 X Cache_control -> no Cache
+01/16/26 17:36:17.159 [20.101.166.13:14002 1 ZFX] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:17.159 [20.101.166.13:14002 1 ZFX] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:17.160 [20.101.166.13:14002 1 ZFX] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:17.160 [20.101.166.13:14002 1 ZFX] 🔱 uid: 1
+01/16/26 17:36:17.160 [20.101.166.13:14002 1 ZFX] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:17 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 2974 [hit_incall] 2717 [hit] 0 [miss_incall] 22 [miss] 235 [set] 257 -->
+01/16/26 17:36:17.161 [20.101.166.13:14002 1 ZFX] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:17.161 [20.101.166.13:14002 1 ZFX] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:17.161 [20.101.166.13:14002 1 ZFX] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:17.162 [20.101.166.13:14002 1 ZFX] End response
+--------------------------------------------------Duration: 1,199.63 ms------------------------------
+
+
+
+
+
+01/16/26 17:36:21.959 [54.37.118.73:10138 1 Wm1] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/ochrona-roslin/
+01/16/26 17:36:21.959 [54.37.118.73:10138 1 Wm1] Query String: filter_cat=chwasty-w-ogrodzie%2Cszkodniki-drzew&filter_brand=target-spolka-akcyjna,agrecol
+01/16/26 17:36:22.239 [54.37.118.73:10138 1 Wm1] 💵 X Cache_control -> stale
+01/16/26 17:36:22.500 [54.37.118.73:10138 1 Wm1] 🔱 👒👒 Guest mode
+01/16/26 17:36:22.501 [54.37.118.73:10138 1 Wm1] 🎢 init
+01/16/26 17:36:23.080 [54.37.118.73:10138 1 Wm1] 💵 Cache_control init on
+01/16/26 17:36:23.422 [54.37.118.73:10138 1 Wm1] [Core] Footer hook called
+01/16/26 17:36:23.468 [54.37.118.73:10138 1 Wm1] [Core] Footer check passed
+01/16/26 17:36:23.470 [54.37.118.73:10138 1 Wm1] [Router] get_role:
+01/16/26 17:36:23.470 [54.37.118.73:10138 1 Wm1] 💰 [Tag] Add --- WC_T.111
+01/16/26 17:36:23.471 [54.37.118.73:10138 1 Wm1] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:23.471 [54.37.118.73:10138 1 Wm1] 💰 X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_
+01/16/26 17:36:23.471 [54.37.118.73:10138 1 Wm1] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:23 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_ -->
+<!-- Object Cache [total] 8066 [hit_incall] 7303 [hit] 0 [miss_incall] 50 [miss] 713 [set] 703 -->
+<!-- Guest Mode -->
+01/16/26 17:36:23.473 [54.37.118.73:10138 1 Wm1] [Core] Footer check passed
+01/16/26 17:36:23.473 [54.37.118.73:10138 1 Wm1] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:23.473 [54.37.118.73:10138 1 Wm1] 📺 finalize
+01/16/26 17:36:23.475 [54.37.118.73:10138 1 Wm1] [VPI] Queue is full - 500
+01/16/26 17:36:23.477 [54.37.118.73:10138 1 Wm1] 🎢 start
+01/16/26 17:36:23.484 [54.37.118.73:10138 1 Wm1] 💰 [Tag] Add --- MIN.8aaf9141ea242cdb1d853efdc1a20b63.css
+01/16/26 17:36:23.548 [54.37.118.73:10138 1 Wm1] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:36:23.549 [54.37.118.73:10138 1 Wm1] 🎢 Put optm data to dummy css location
+01/16/26 17:36:23.555 [54.37.118.73:10138 1 Wm1] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:23.555 [54.37.118.73:10138 1 Wm1] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/111>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.111,34f_tax,34f_URL./kategoria-produktu/ochrona-roslin/,34f_T.111,34f_guest,34f_,34f_MIN.8aaf9141ea242cdb1d853efdc1a20b63.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:36:23.555 [54.37.118.73:10138 1 Wm1] End response
+--------------------------------------------------Duration: 1,596.87 ms------------------------------
+
+01/16/26 17:36:25.148 [20.101.166.13:10318 1 qrp] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:25.148 [20.101.166.13:10318 1 qrp] Query String:
+01/16/26 17:36:25.418 [20.101.166.13:10318 1 qrp] 💵 X Cache_control -> stale
+01/16/26 17:36:25.671 [20.101.166.13:10318 1 qrp] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:25.671 [20.101.166.13:10318 1 qrp] [Router] get_role: administrator
+01/16/26 17:36:25.931 [20.101.166.13:10318 1 qrp] 💵 Cache_control init on
+01/16/26 17:36:26.042 [20.101.166.13:10318 1 qrp] 🔱 Rest API init disabled vary change
+01/16/26 17:36:26.205 [20.101.166.13:10318 1 qrp] [3rd] Woo Purge [pid] 7829
+01/16/26 17:36:26.205 [20.101.166.13:10318 1 qrp] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:26.275 [20.101.166.13:10318 1 qrp] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:26.275 [20.101.166.13:10318 1 qrp] 💵 X Cache_control -> no Cache
+01/16/26 17:36:26.276 [20.101.166.13:10318 1 qrp] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:26.276 [20.101.166.13:10318 1 qrp] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:26.277 [20.101.166.13:10318 1 qrp] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:26.277 [20.101.166.13:10318 1 qrp] 🔱 uid: 1
+01/16/26 17:36:26.277 [20.101.166.13:10318 1 qrp] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:26 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3079 [hit_incall] 2813 [hit] 0 [miss_incall] 25 [miss] 241 [set] 263 -->
+01/16/26 17:36:26.277 [20.101.166.13:10318 1 qrp] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:26.278 [20.101.166.13:10318 1 qrp] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:26.278 [20.101.166.13:10318 1 qrp] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:26.278 [20.101.166.13:10318 1 qrp] End response
+--------------------------------------------------Duration: 1,130.74 ms------------------------------
+
+
+
+
+
+01/16/26 17:36:33.670 [51.75.236.129:10333 1 XQG] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/pielegnacja-i-nawozenie/
+01/16/26 17:36:33.670 [51.75.236.129:10333 1 XQG] Query String: et_columns-count=1&filter_cat=nawozy-do-owocowych&filter_brand=biogrod,target-spolka-akcyjna
+01/16/26 17:36:33.923 [51.75.236.129:10333 1 XQG] 💵 X Cache_control -> stale
+01/16/26 17:36:34.166 [51.75.236.129:10333 1 XQG] 🔱 👒👒 Guest mode
+01/16/26 17:36:34.167 [51.75.236.129:10333 1 XQG] 🎢 init
+01/16/26 17:36:34.720 [51.75.236.129:10333 1 XQG] 💵 Cache_control init on
+01/16/26 17:36:34.999 [51.75.236.129:10333 1 XQG] [Core] Footer hook called
+01/16/26 17:36:35.058 [51.75.236.129:10333 1 XQG] [Core] Footer check passed
+01/16/26 17:36:35.059 [51.75.236.129:10333 1 XQG] [Router] get_role:
+01/16/26 17:36:35.060 [51.75.236.129:10333 1 XQG] 💰 [Tag] Add --- WC_T.88
+01/16/26 17:36:35.060 [51.75.236.129:10333 1 XQG] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:35.061 [51.75.236.129:10333 1 XQG] 💰 X-LiteSpeed-Tag: 34f_WC_T.88,34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_
+01/16/26 17:36:35.061 [51.75.236.129:10333 1 XQG] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:35 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.88,34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_ -->
+<!-- Object Cache [total] 8089 [hit_incall] 7326 [hit] 0 [miss_incall] 48 [miss] 715 [set] 705 -->
+<!-- Guest Mode -->
+01/16/26 17:36:35.063 [51.75.236.129:10333 1 XQG] [Core] Footer check passed
+01/16/26 17:36:35.063 [51.75.236.129:10333 1 XQG] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:35.064 [51.75.236.129:10333 1 XQG] 📺 finalize
+01/16/26 17:36:35.065 [51.75.236.129:10333 1 XQG] [VPI] Queue is full - 500
+01/16/26 17:36:35.067 [51.75.236.129:10333 1 XQG] 🎢 start
+01/16/26 17:36:35.074 [51.75.236.129:10333 1 XQG] 💰 [Tag] Add --- MIN.02d4d67a9ca96021d3037b195de0e2bf.css
+01/16/26 17:36:35.128 [51.75.236.129:10333 1 XQG] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:36:35.129 [51.75.236.129:10333 1 XQG] 🎢 Put optm data to dummy css location
+01/16/26 17:36:35.133 [51.75.236.129:10333 1 XQG] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:35.133 [51.75.236.129:10333 1 XQG] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/88>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.88,34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_,34f_MIN.02d4d67a9ca96021d3037b195de0e2bf.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:36:35.134 [51.75.236.129:10333 1 XQG] End response
+--------------------------------------------------Duration: 1,464.15 ms------------------------------
+
+01/16/26 17:36:35.218 [20.101.166.13:13065 1 N42] 💓 ------POST HTTP/1.1 (HTTPS) /wp-json/wc/v3/products/batch
+01/16/26 17:36:35.218 [20.101.166.13:13065 1 N42] Query String:
+01/16/26 17:36:35.462 [20.101.166.13:13065 1 N42] 💵 X Cache_control -> stale
+01/16/26 17:36:35.704 [20.101.166.13:13065 1 N42] 💵 X Cache_control -> private ( logged in user )
+01/16/26 17:36:35.704 [20.101.166.13:13065 1 N42] [Router] get_role: administrator
+01/16/26 17:36:35.966 [20.101.166.13:13065 1 N42] 💵 Cache_control init on
+01/16/26 17:36:36.076 [20.101.166.13:13065 1 N42] 🔱 Rest API init disabled vary change
+01/16/26 17:36:36.226 [20.101.166.13:13065 1 N42] [3rd] Woo Purge [pid] 8061
+01/16/26 17:36:36.227 [20.101.166.13:13065 1 N42] [3rd] Woo No purge needed [option] 2
+01/16/26 17:36:36.300 [20.101.166.13:13065 1 N42] 💵 X Cache_control off - Not GET method: POST
+01/16/26 17:36:36.300 [20.101.166.13:13065 1 N42] 💵 X Cache_control -> no Cache
+01/16/26 17:36:36.300 [20.101.166.13:13065 1 N42] 🔱 can_change_vary bypassed due to litespeed_can_change_vary hook
+01/16/26 17:36:36.301 [20.101.166.13:13065 1 N42] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:36.301 [20.101.166.13:13065 1 N42] 💰 Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+01/16/26 17:36:36.301 [20.101.166.13:13065 1 N42] 🔱 uid: 1
+01/16/26 17:36:36.302 [20.101.166.13:13065 1 N42] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:36 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3468 [hit_incall] 3172 [hit] 0 [miss_incall] 35 [miss] 261 [set] 283 -->
+01/16/26 17:36:36.302 [20.101.166.13:13065 1 N42] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:36.302 [20.101.166.13:13065 1 N42] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:36.303 [20.101.166.13:13065 1 N42] Response headers --- array (
+0 => 'Content-Type: application/json; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Access-Control-Expose-Headers: X-WP-Total, X-WP-TotalPages, Link',
+5 => 'Access-Control-Allow-Headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type',
+6 => 'Allow: POST, PUT, PATCH',
+7 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+)
+01/16/26 17:36:36.303 [20.101.166.13:13065 1 N42] End response
+--------------------------------------------------Duration: 1,085.33 ms------------------------------
+
+01/16/26 17:36:37.526 [217.113.194.164:10333 1 m7K] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/wysiew/
+01/16/26 17:36:37.526 [217.113.194.164:10333 1 m7K] Query String: filter_brand=amma,garland
+01/16/26 17:36:37.789 [217.113.194.164:10333 1 m7K] 💵 X Cache_control -> stale
+01/16/26 17:36:38.043 [217.113.194.164:10333 1 m7K] 🔱 👒👒 Guest mode
+01/16/26 17:36:38.043 [217.113.194.164:10333 1 m7K] 🎢 init
+01/16/26 17:36:38.682 [217.113.194.164:10333 1 m7K] 💵 Cache_control init on
+01/16/26 17:36:38.966 [217.113.194.164:10333 1 m7K] [Core] Footer hook called
+01/16/26 17:36:39.013 [217.113.194.164:10333 1 m7K] [Core] Footer check passed
+01/16/26 17:36:39.014 [217.113.194.164:10333 1 m7K] [Router] get_role:
+01/16/26 17:36:39.014 [217.113.194.164:10333 1 m7K] 💰 [Tag] Add --- WC_T.93
+01/16/26 17:36:39.014 [217.113.194.164:10333 1 m7K] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:39.015 [217.113.194.164:10333 1 m7K] 💰 X-LiteSpeed-Tag: 34f_WC_T.93,34f_tax,34f_URL./kategoria-produktu/wysiew/,34f_T.93,34f_guest,34f_
+01/16/26 17:36:39.015 [217.113.194.164:10333 1 m7K] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:39 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.93,34f_tax,34f_URL./kategoria-produktu/wysiew/,34f_T.93,34f_guest,34f_ -->
+<!-- Object Cache [total] 7896 [hit_incall] 7149 [hit] 0 [miss_incall] 48 [miss] 699 [set] 689 -->
+<!-- Guest Mode -->
+01/16/26 17:36:39.016 [217.113.194.164:10333 1 m7K] [Core] Footer check passed
+01/16/26 17:36:39.016 [217.113.194.164:10333 1 m7K] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:39.017 [217.113.194.164:10333 1 m7K] 📺 finalize
+01/16/26 17:36:39.018 [217.113.194.164:10333 1 m7K] [VPI] Queue is full - 500
+01/16/26 17:36:39.019 [217.113.194.164:10333 1 m7K] 🎢 start
+01/16/26 17:36:39.024 [217.113.194.164:10333 1 m7K] 💰 [Tag] Add --- MIN.af73c0b25cb43ab96ae19351ea53931d.css
+01/16/26 17:36:39.068 [217.113.194.164:10333 1 m7K] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:36:39.070 [217.113.194.164:10333 1 m7K] 🎢 Put optm data to dummy css location
+01/16/26 17:36:39.074 [217.113.194.164:10333 1 m7K] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:39.074 [217.113.194.164:10333 1 m7K] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/93>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.93,34f_tax,34f_URL./kategoria-produktu/wysiew/,34f_T.93,34f_guest,34f_,34f_MIN.af73c0b25cb43ab96ae19351ea53931d.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:36:39.075 [217.113.194.164:10333 1 m7K] End response
+--------------------------------------------------Duration: 1,549.89 ms------------------------------
+
+01/16/26 17:36:41.179 [83.24.163.225:14095 1 4g9] 💓 ------POST HTTP/1.1 (HTTPS) /wp-admin/admin-ajax.php
+01/16/26 17:36:41.179 [83.24.163.225:14095 1 4g9] Query String:
+01/16/26 17:36:41.179 [83.24.163.225:14095 1 4g9] HTTP_REFERER: https://sklep.plantis.app/wp-admin/admin.php?page=lit...
+01/16/26 17:36:41.179 [83.24.163.225:14095 1 4g9] Cookie _lscache_vary: admin_bar:1;guest_mode:1;logged-in:1;role:99
+01/16/26 17:36:41.522 [83.24.163.225:14095 1 4g9] 💵 X Cache_control -> stale
+01/16/26 17:36:41.824 [83.24.163.225:14095 1 4g9] 💵 X Cache_control -> no Cache ( logged in user )
+01/16/26 17:36:42.230 [83.24.163.225:14095 1 4g9] 💵 not cacheable before ctrl finalize
+01/16/26 17:36:42.230 [83.24.163.225:14095 1 4g9] [Router] get_role: administrator
+01/16/26 17:36:42.231 [83.24.163.225:14095 1 4g9] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:42.231 [83.24.163.225:14095 1 4g9] 🔱 uid: 1
+01/16/26 17:36:42.231 [83.24.163.225:14095 1 4g9] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:42 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 2708 [hit_incall] 2225 [hit] 0 [miss_incall] 21 [miss] 462 [set] 441 -->
+01/16/26 17:36:42.231 [83.24.163.225:14095 1 4g9] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:42.232 [83.24.163.225:14095 1 4g9] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:42.232 [83.24.163.225:14095 1 4g9] Response headers --- array (
+0 => 'Access-Control-Allow-Origin: https://sklep.plantis.app',
+1 => 'Access-Control-Allow-Credentials: true',
+2 => 'X-Robots-Tag: noindex',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Referrer-Policy: strict-origin-when-cross-origin',
+5 => 'X-Frame-Options: SAMEORIGIN',
+6 => 'Content-Security-Policy: frame-ancestors \'self\';',
+7 => 'Content-Type: application/json; charset=UTF-8',
+8 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+10 => 'X-LiteSpeed-Cache-Control: no-cache',
+)
+01/16/26 17:36:42.232 [83.24.163.225:14095 1 4g9] End response
+--------------------------------------------------Duration: 1,054.20 ms------------------------------
+
+01/16/26 17:36:42.461 [109.95.157.167:14102 1 f8h] 💓 ------POST HTTP/1.1 (HTTPS) /wp-admin/admin-ajax.php
+01/16/26 17:36:42.461 [109.95.157.167:14102 1 f8h] Query String: action=as_async_request_queue_runner&nonce=4bd719d9f7
+01/16/26 17:36:42.461 [109.95.157.167:14102 1 f8h] Cookie _lscache_vary: admin_bar:1
+01/16/26 17:36:42.810 [109.95.157.167:14102 1 f8h] 💵 X Cache_control -> stale
+01/16/26 17:36:43.126 [109.95.157.167:14102 1 f8h] 💵 X Cache_control -> no Cache ( logged in user )
+
+
+
+
+01/16/26 17:36:47.222 [37.59.204.145:12357 1 TtT] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/pielegnacja-i-nawozenie/
+01/16/26 17:36:47.222 [37.59.204.145:12357 1 TtT] Query String: et_columns-count=1&filter_cat=nawozy-do-owocowych&filter_brand=biogrod,poltops-sp-z-o-o
+01/16/26 17:36:47.504 [37.59.204.145:12357 1 TtT] 💵 X Cache_control -> stale
+01/16/26 17:36:47.715 [37.59.204.145:12357 1 TtT] 🔱 👒👒 Guest mode
+01/16/26 17:36:47.715 [37.59.204.145:12357 1 TtT] 🎢 init
+01/16/26 17:36:48.239 [37.59.204.145:12357 1 TtT] 💵 Cache_control init on
+01/16/26 17:36:48.511 [37.59.204.145:12357 1 TtT] [Core] Footer hook called
+01/16/26 17:36:48.558 [37.59.204.145:12357 1 TtT] [Core] Footer check passed
+01/16/26 17:36:48.559 [37.59.204.145:12357 1 TtT] [Router] get_role:
+01/16/26 17:36:48.559 [37.59.204.145:12357 1 TtT] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:36:48.559 [37.59.204.145:12357 1 TtT] 💰 X-LiteSpeed-Tag: 34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_
+01/16/26 17:36:48.560 [37.59.204.145:12357 1 TtT] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:48 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_ -->
+<!-- Object Cache [total] 7079 [hit_incall] 6428 [hit] 0 [miss_incall] 39 [miss] 612 [set] 592 -->
+<!-- Guest Mode -->
+01/16/26 17:36:48.561 [37.59.204.145:12357 1 TtT] [Core] Footer check passed
+01/16/26 17:36:48.562 [37.59.204.145:12357 1 TtT] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:48.562 [37.59.204.145:12357 1 TtT] 📺 finalize
+01/16/26 17:36:48.563 [37.59.204.145:12357 1 TtT] [VPI] Queue is full - 500
+01/16/26 17:36:48.565 [37.59.204.145:12357 1 TtT] 🎢 start
+01/16/26 17:36:48.571 [37.59.204.145:12357 1 TtT] 💰 [Tag] Add --- MIN.ad7208255bed61c5559a1bffd60ccba7.css
+01/16/26 17:36:48.619 [37.59.204.145:12357 1 TtT] 💰 [Tag] Add --- MIN.4355b236cd14c8150842863388e9a6e5.js
+01/16/26 17:36:48.620 [37.59.204.145:12357 1 TtT] 🎢 Put optm data to dummy css location
+01/16/26 17:36:48.624 [37.59.204.145:12357 1 TtT] 🎢 Fallback to drop dummy CSS
+01/16/26 17:36:48.624 [37.59.204.145:12357 1 TtT] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/88>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_tax,34f_URL./kategoria-produktu/pielegnacja-i-nawozenie/,34f_T.88,34f_guest,34f_,34f_MIN.ad7208255bed61c5559a1bffd60ccba7.css,34f_MIN.4355b236cd14c8150842863388e9a6e5.js',
+)
+01/16/26 17:36:48.624 [37.59.204.145:12357 1 TtT] End response
+--------------------------------------------------Duration: 1,403.06 ms------------------------------
+
+01/16/26 17:36:48.694 [109.95.157.167:14102 1 f8h] 💵 not cacheable before ctrl finalize
+01/16/26 17:36:48.695 [109.95.157.167:14102 1 f8h] [Router] get_role: administrator
+01/16/26 17:36:48.695 [109.95.157.167:14102 1 f8h] 🔱 can_change_vary bypassed due to ajax call
+01/16/26 17:36:48.695 [109.95.157.167:14102 1 f8h] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:36:48.696 [109.95.157.167:14102 1 f8h] 🔱 uid: 1
+01/16/26 17:36:48.696 [109.95.157.167:14102 1 f8h] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:36:48 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 3308 [hit_incall] 2663 [hit] 0 [miss_incall] 30 [miss] 615 [set] 598 -->
+01/16/26 17:36:48.696 [109.95.157.167:14102 1 f8h] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:36:48.697 [109.95.157.167:14102 1 f8h] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:36:48.697 [109.95.157.167:14102 1 f8h] Response headers --- array (
+0 => 'Content-Type: text/html; charset=UTF-8',
+1 => 'X-Robots-Tag: noindex',
+2 => 'X-Content-Type-Options: nosniff',
+3 => 'Referrer-Policy: strict-origin-when-cross-origin',
+4 => 'X-Frame-Options: SAMEORIGIN',
+5 => 'Content-Security-Policy: frame-ancestors \'self\';',
+6 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+7 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+8 => 'X-LiteSpeed-Cache-Control: no-cache',
+)
+01/16/26 17:36:48.697 [109.95.157.167:14102 1 f8h] End response
+--------------------------------------------------Duration: 6,237.06 ms------------------------------
+
+
+
+
+
+01/16/26 17:37:00.079 [92.222.108.120:12099 1 dwq] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/narzedzia/
+01/16/26 17:37:00.079 [92.222.108.120:12099 1 dwq] Query String: filter_cat=akcesoria-ogrodnicze%2Cnozyce-do-galezi&filter_brand=browin-sp-z-o-o-sp-k,zestaw
+01/16/26 17:37:00.347 [92.222.108.120:12099 1 dwq] 💵 X Cache_control -> stale
+01/16/26 17:37:00.563 [92.222.108.120:12099 1 dwq] 🔱 👒👒 Guest mode
+01/16/26 17:37:00.563 [92.222.108.120:12099 1 dwq] 🎢 init
+01/16/26 17:37:01.253 [92.222.108.120:12099 1 dwq] 💵 Cache_control init on
+01/16/26 17:37:01.686 [92.222.108.120:12099 1 dwq] [Core] Footer hook called
+01/16/26 17:37:01.743 [92.222.108.120:12099 1 dwq] [Core] Footer check passed
+01/16/26 17:37:01.745 [92.222.108.120:12099 1 dwq] [Router] get_role:
+01/16/26 17:37:01.745 [92.222.108.120:12099 1 dwq] 💰 [Tag] Add --- WC_T.129
+01/16/26 17:37:01.745 [92.222.108.120:12099 1 dwq] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:37:01.746 [92.222.108.120:12099 1 dwq] 💰 X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_
+01/16/26 17:37:01.746 [92.222.108.120:12099 1 dwq] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:37:01 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_ -->
+<!-- Object Cache [total] 7944 [hit_incall] 7195 [hit] 0 [miss_incall] 47 [miss] 702 [set] 692 -->
+<!-- Guest Mode -->
+01/16/26 17:37:01.748 [92.222.108.120:12099 1 dwq] [Core] Footer check passed
+01/16/26 17:37:01.748 [92.222.108.120:12099 1 dwq] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:37:01.748 [92.222.108.120:12099 1 dwq] 📺 finalize
+01/16/26 17:37:01.750 [92.222.108.120:12099 1 dwq] [VPI] Queue is full - 500
+01/16/26 17:37:01.751 [92.222.108.120:12099 1 dwq] 🎢 start
+01/16/26 17:37:01.759 [92.222.108.120:12099 1 dwq] 💰 [Tag] Add --- MIN.a2d8e9c914373a60043535fed44a8294.css
+01/16/26 17:37:01.818 [92.222.108.120:12099 1 dwq] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:37:01.819 [92.222.108.120:12099 1 dwq] 🎢 Put optm data to dummy css location
+01/16/26 17:37:01.825 [92.222.108.120:12099 1 dwq] 🎢 Fallback to drop dummy CSS
+01/16/26 17:37:01.826 [92.222.108.120:12099 1 dwq] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/129>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_,34f_MIN.a2d8e9c914373a60043535fed44a8294.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:37:01.826 [92.222.108.120:12099 1 dwq] End response
+--------------------------------------------------Duration: 1,748.05 ms------------------------------
+
+
+
+
+
+01/16/26 17:37:10.182 [83.24.163.225:10775 1 XFa] 💓 ------POST HTTP/1.1 (HTTPS) /wp-admin/admin-ajax.php
+01/16/26 17:37:10.182 [83.24.163.225:10775 1 XFa] Query String:
+01/16/26 17:37:10.182 [83.24.163.225:10775 1 XFa] HTTP_REFERER: https://sklep.plantis.app/wp-admin/admin.php?page=lit...
+01/16/26 17:37:10.182 [83.24.163.225:10775 1 XFa] Cookie _lscache_vary: admin_bar:1;guest_mode:1;logged-in:1;role:99
+01/16/26 17:37:10.514 [83.24.163.225:10775 1 XFa] 💵 X Cache_control -> stale
+01/16/26 17:37:10.840 [83.24.163.225:10775 1 XFa] 💵 X Cache_control -> no Cache ( logged in user )
+01/16/26 17:37:11.242 [83.24.163.225:10775 1 XFa] 💵 not cacheable before ctrl finalize
+01/16/26 17:37:11.243 [83.24.163.225:10775 1 XFa] [Router] get_role: administrator
+01/16/26 17:37:11.243 [83.24.163.225:10775 1 XFa] 💰 X-LiteSpeed-Cache-Control: no-cache
+01/16/26 17:37:11.243 [83.24.163.225:10775 1 XFa] 🔱 uid: 1
+01/16/26 17:37:11.244 [83.24.163.225:10775 1 XFa] [footer comment]
+<!-- Page uncached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:37:11 -->
+<!-- X-LiteSpeed-Cache-Control: no-cache -->
+<!-- Full varies: admin_bar:1;guest_mode:1;logged-in:1;role:99 -->
+<!-- Object Cache [total] 2708 [hit_incall] 2225 [hit] 0 [miss_incall] 21 [miss] 462 [set] 441 -->
+01/16/26 17:37:11.244 [83.24.163.225:10775 1 XFa] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:37:11.244 [83.24.163.225:10775 1 XFa] [Core] Silence Comment due to REST/AJAX
+01/16/26 17:37:11.244 [83.24.163.225:10775 1 XFa] Response headers --- array (
+0 => 'Access-Control-Allow-Origin: https://sklep.plantis.app',
+1 => 'Access-Control-Allow-Credentials: true',
+2 => 'X-Robots-Tag: noindex',
+3 => 'X-Content-Type-Options: nosniff',
+4 => 'Referrer-Policy: strict-origin-when-cross-origin',
+5 => 'X-Frame-Options: SAMEORIGIN',
+6 => 'Content-Security-Policy: frame-ancestors \'self\';',
+7 => 'Content-Type: application/json; charset=UTF-8',
+8 => 'Expires: Wed, 11 Jan 1984 05:00:00 GMT',
+9 => 'Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private',
+10 => 'X-LiteSpeed-Cache-Control: no-cache',
+)
+01/16/26 17:37:11.245 [83.24.163.225:10775 1 XFa] End response
+--------------------------------------------------Duration: 1,064.16 ms------------------------------
+
+01/16/26 17:37:11.251 [51.75.236.141:13129 1 77q] 💓 ------GET HTTP/1.1 (HTTPS) /kategoria-produktu/narzedzia/
+01/16/26 17:37:11.251 [51.75.236.141:13129 1 77q] Query String: filter_cat=akcesoria-ogrodnicze%2Cnozyce-do-galezi&filter_brand=browin-sp-z-o-o-sp-k,wolf-garten
+01/16/26 17:37:11.546 [51.75.236.141:13129 1 77q] 💵 X Cache_control -> stale
+01/16/26 17:37:11.787 [51.75.236.141:13129 1 77q] 🔱 👒👒 Guest mode
+01/16/26 17:37:11.787 [51.75.236.141:13129 1 77q] 🎢 init
+01/16/26 17:37:12.410 [51.75.236.141:13129 1 77q] 💵 Cache_control init on
+01/16/26 17:37:12.766 [51.75.236.141:13129 1 77q] [Core] Footer hook called
+01/16/26 17:37:12.831 [51.75.236.141:13129 1 77q] [Core] Footer check passed
+01/16/26 17:37:12.833 [51.75.236.141:13129 1 77q] [Router] get_role:
+01/16/26 17:37:12.833 [51.75.236.141:13129 1 77q] 💰 [Tag] Add --- WC_T.129
+01/16/26 17:37:12.834 [51.75.236.141:13129 1 77q] 💰 X-LiteSpeed-Cache-Control: public,max-age=604800
+01/16/26 17:37:12.834 [51.75.236.141:13129 1 77q] 💰 X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_
+01/16/26 17:37:12.834 [51.75.236.141:13129 1 77q] [footer comment]
+<!-- Page cached by LiteSpeed Cache 7.6.2 on 2026-01-16 17:37:12 -->
+<!-- X-LiteSpeed-Cache-Control: public,max-age=604800 -->
+<!-- X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_ -->
+<!-- Object Cache [total] 7918 [hit_incall] 7172 [hit] 0 [miss_incall] 45 [miss] 701 [set] 689 -->
+<!-- Guest Mode -->
+01/16/26 17:37:12.837 [51.75.236.141:13129 1 77q] [Core] Footer check passed
+01/16/26 17:37:12.837 [51.75.236.141:13129 1 77q] [Core] run hook litespeed_buffer_finalize
+01/16/26 17:37:12.837 [51.75.236.141:13129 1 77q] 📺 finalize
+01/16/26 17:37:12.839 [51.75.236.141:13129 1 77q] [VPI] Queue is full - 500
+01/16/26 17:37:12.841 [51.75.236.141:13129 1 77q] 🎢 start
+01/16/26 17:37:12.849 [51.75.236.141:13129 1 77q] 💰 [Tag] Add --- MIN.b5646b5adcb2005c230f78ef6ee39d21.css
+01/16/26 17:37:12.914 [51.75.236.141:13129 1 77q] 💰 [Tag] Add --- MIN.38700edad4efb0ca2096ff4189376409.js
+01/16/26 17:37:12.915 [51.75.236.141:13129 1 77q] 🎢 Put optm data to dummy css location
+01/16/26 17:37:12.922 [51.75.236.141:13129 1 77q] 🎢 Fallback to drop dummy CSS
+01/16/26 17:37:12.923 [51.75.236.141:13129 1 77q] Response headers --- array (
+0 => 'X-DNS-Prefetch-Control: on',
+1 => 'Content-Type: text/html; charset=UTF-8',
+2 => 'Link: <https://sklep.plantis.app/wp-json/>; rel="https://api.w.org/"',
+3 => 'Link: <https://sklep.plantis.app/wp-json/wp/v2/product_cat/129>; rel="alternate"; title="JSON"; type="application/json"',
+4 => 'X-LiteSpeed-Cache-Control: public,max-age=604800',
+5 => 'X-LiteSpeed-Tag: 34f_WC_T.129,34f_tax,34f_URL./kategoria-produktu/narzedzia/,34f_T.129,34f_guest,34f_,34f_MIN.b5646b5adcb2005c230f78ef6ee39d21.css,34f_MIN.38700edad4efb0ca2096ff4189376409.js',
+)
+01/16/26 17:37:12.923 [51.75.236.141:13129 1 77q] End response
+--------------------------------------------------Duration: 1,672.88 ms------------------------------
+
+
+
+
+
+01/16/26 17:37:15.167 [83.24.163.225:10775 1 nmo] 💓 ------GET HTTP/1.1 (HTTPS) /wp-admin/admin.php
+01/16/26 17:37:15.167 [83.24.163.225:10775 1 nmo] Query String: page=litespeed-toolbox
+01/16/26 17:37:15.167 [83.24.163.225:10775 1 nmo] HTTP_REFERER: https://sklep.plantis.app/wp-admin/admin.php?page=lit...
+01/16/26 17:37:15.167 [83.24.163.225:10775 1 nmo] Cookie _lscache_vary: admin_bar:1;guest_mode:1;logged-in:1;role:99
+01/16/26 17:37:15.167 [83.24.163.225:10775 1 nmo] LSCACHE_VARY_VALUE: +webp
+01/16/26 17:37:15.486 [83.24.163.225:10775 1 nmo] 👮 No cache due to Admin page
+01/16/26 17:37:15.487 [83.24.163.225:10775 1 nmo] 💵 X Cache_control -> stale
+01/16/26 17:37:15.803 [83.24.163.225:10775 1 nmo] 💵 X Cache_control -> no Cache ( logged in user )
