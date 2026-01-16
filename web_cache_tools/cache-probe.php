@@ -46,8 +46,8 @@ function parseArgs(array $argv): array {
         'delay_ms' => 500,
         'seed' => null,
         'expect_nocache' => 'none',
-        'output' => null,
-        'trace_log' => null,
+        'output' => 'auto',
+        'trace_log' => 'auto',
         'verbose' => false,
         'trace' => false,
     ];;
@@ -884,11 +884,11 @@ try {
     // Start timer
     $startTime = microtime(true);
 
-    // Auto-generate filenames if not provided
-    if ($cfg['output'] === null) {
+    // Auto-generate filenames if not provided or set to 'auto'
+    if ($cfg['output'] === null || $cfg['output'] === 'auto') {
         $cfg['output'] = 'cache-probe-' . date('Y-m-d_H-i-s') . '.html';
     }
-    if ($cfg['trace_log'] === null) {
+    if ($cfg['trace_log'] === null || $cfg['trace_log'] === 'auto') {
         $cfg['trace_log'] = 'cache-probe-' . date('Y-m-d_H-i-s') . '.log';
     }
 
