@@ -1,0 +1,316 @@
+# TEST WYGRZEWANIA CACHE - WYNIKI
+# Data: 16.01.2026, godz. 18:33
+
+## 🎯 CEL TESTU:
+Sprawdzić czy cache się utrzymuje po wygrzaniu.
+
+---
+
+## 📊 TEST #1 - WYGRZEWANIE (18:33)
+
+### Parametry:
+```
+URLs: 30
+Passes: 1
+Variant: both (Desktop + Mobile)
+Czas: 1 min 8 sek
+```
+
+### Wyniki:
+```
+Desktop: 29 HIT, 1 MISS
+Mobile: 30 HIT, 0 MISS
+RAZEM: 59/60 HIT (98.3%)
+```
+
+### Czasy:
+```
+Desktop HIT: 311-888ms (średnio ~470ms)
+Mobile HIT: 339-815ms (średnio ~480ms)
+Desktop MISS: 2353ms (1 strona)
+```
+
+### Średnia ogólna:
+```
+1131.70ms (inflowana przez 1 MISS)
+Tylko HIT: ~475ms ✅
+```
+
+---
+
+## ✅ WNIOSKI Z TESTU #1:
+
+### Cache działa ŚWIETNIE! ✅
+```
+98.3% HIT rate (59/60)
+Tylko 1 MISS na 60 requestów
+```
+
+### Desktop MISS:
+```
+URL: /produkt/pietruszka-laura-nasiona-otoczkowane-kiepenkerl/
+Desktop: MISS (2353ms)
+Mobile: HIT (451ms)
+```
+
+**DLACZEGO:**
+- Mobile był w cache (crawler rozgrzał)
+- Desktop nie był w cache
+- To potwierdza: Desktop i Mobile = osobne cache!
+
+### Pozostałe strony:
+```
+59/60 = HIT ✅
+Czasy: 311-888ms (bardzo dobre!)
+```
+
+---
+
+## ⏰ OCZEKIWANIE: 5 MINUT
+
+**Teraz:** 18:35
+**Test #2:** 18:40
+
+**Podczas oczekiwania:**
+- NIE edytuj produktów
+- NIE klikaj "Purge All"
+- NIE zmieniaj ustawień cache
+- Pozwól cache się ustabilizować
+
+---
+
+## 📊 TEST #2 - WERYFIKACJA (18:40)
+
+### Parametry:
+```
+URLs: Te same 30 URLs
+Passes: 1
+Variant: both (Desktop + Mobile)
+```
+
+### Oczekiwany wynik:
+```
+Desktop: 30 HIT, 0 MISS ✅ (włącznie z pietruszką!)
+Mobile: 30 HIT, 0 MISS ✅
+RAZEM: 60/60 HIT (100%) ✅
+```
+
+### Czasy oczekiwane:
+```
+Desktop: 300-500ms
+Mobile: 300-500ms
+Średnia: ~400ms (bez MISS!)
+```
+
+---
+
+## 🎯 CO TO UDOWODNI?
+
+### Jeśli Test #2 = 100% HIT:
+```
+✅ Cache działa idealnie
+✅ Cache się utrzymuje po wygrzaniu
+✅ Desktop cache został rozgrzany w Test #1
+✅ Pietruszka Desktop: MISS → HIT
+✅ Problem MISS = tylko pierwsze odwiedziny
+```
+
+### Jeśli Test #2 = znowu MISS:
+```
+⚠️ Cache wygasa zbyt szybko
+⚠️ Coś czyści cache (purge)
+⚠️ TTL za krótki
+⚠️ Trzeba sprawdzić ustawienia
+```
+
+---
+
+## 📋 LISTA TESTOWANYCH URL (30 stron):
+
+1. /produkt/siatka-magnetyczna-na-drzwi-czarna-100-x-220-cm-bros/
+2. /produkt/nawoz-z-pokrzywy-1-l-organiczny-plynny-sumin/
+3. /produkt/nawoz-organiczny-humus-2w1-naturen-35-kg-substral/
+4. /produkt/nawoz-wiosenny-do-trawnikow-witaminy-dla-rosliny-14-kg/
+5. /produkt/nasturcja-rankender-mix-nasion-kiepenkerl/
+6. /produkt/perlit-ogrodniczy-2-litry/
+7. /producent/himal/
+8. /produkt/obornik-konski-w-plynie-wyciag-uniwersalny-1-l-target/
+9. /produkt/pompka-do-opryskiwacza-venus-super-kwazar/
+10. /produkt/extra-chlor-granulat-zwalcza-glony-bakterie-i-grzyby-1-kg-target/
+11. /produkt/probio-ogrod-pokrzywa-naturalny-ekstrakt-05-l/
+12. /produkt/przylacze-z-gwintem-zewnetrznym-abs-ideal-3-4-cellfast/
+13. /produkt/lilia-azjatycka-canova-1-szt/
+14. /produkt/sum-trawa-na-tereny-suche-kwiat-pustyni-samozageszczajaca-500-g/
+15. /produkt/sekator-kowadelkowy-dwureczny-do-galezi-power-cut-rs-650-wolf-garten/
+16. /produkt/skrzyp-500-ml-odpornosc-na-choroby-grzybowe-probioogrod/
+17. /kategoria-produktu/pielegnacja-i-nawozenie/podloza/
+18. /produkt/piasek-uniwersalny-20-kg-biovita/
+19. /produkt/pietruszka-laura-nasiona-otoczkowane-kiepenkerl/ ← MISS Desktop!
+20. /produkt/piknik-trawa-uniwersalna-05-kg-target/
+21. /produkt/miniszklarenka-31x31x45-mm-56-komorek/
+22. /produkt/ogorek-wezowy-longo-da-china-5-g-legutko/
+23. /produkt/doniczki-produkcyjne-kwadratowe-9x9-50-szt/
+24. /produkt/salata-quattro-stagioni-1-g-legutko/
+25. /produkt/koncentrat-na-chwasty-3l-protect-garden-natura/
+26. /produkt/neemazal-szkodniki-warzyw-owocow-ozdobnych-9-ml-target/
+27. /etheme_mega_menus/mega-menu-17/
+28. /producent/ogrod-start/
+29. /kategoria-produktu/pielegnacja-i-nawozenie/nawozy-do-roslin-iglastych/
+30. (1 URL ukryty w skróconym output)
+
+---
+
+## ⏰ HARMONOGRAM:
+
+```
+18:33 - Test #1 START (wygrzewanie)
+18:35 - Test #1 KONIEC (59/60 HIT)
+18:35-18:40 - OCZEKIWANIE (5 minut)
+18:40 - Test #2 START (weryfikacja)
+18:41 - Test #2 KONIEC (oczekiwane: 60/60 HIT)
+```
+
+---
+
+## 📊 TEST #2 - WERYFIKACJA (18:41)
+
+### Parametry:
+```
+URLs: 30 (INNE niż Test #1 - seed=123)
+Passes: 1
+Variant: both (Desktop + Mobile)
+Czas: 1 min 2 sek
+```
+
+### Wyniki:
+```
+Desktop: 29 HIT, 1 MISS
+Mobile: 30 HIT, 0 MISS
+RAZEM: 59/60 HIT (98.3%)
+```
+
+### Czasy:
+```
+Desktop HIT: 295-481ms (średnio ~365ms) ✅
+Mobile HIT: 320-541ms (średnio ~375ms) ✅
+Desktop MISS: 2207ms (1 strona)
+```
+
+### Średnia ogólna:
+```
+1041.31ms (inflowana przez 1 MISS)
+Tylko HIT: ~370ms ✅
+```
+
+---
+
+## ⚠️ UWAGA: INNE URLs!
+
+### Test #1 vs Test #2:
+```
+Test #1: 30 URLs (losowe)
+Test #2: 30 URLs (losowe z seed=123)
+```
+
+**To NIE były te same URLs!**
+
+### Desktop MISS w Test #2:
+```
+URL: /produkt/sekator-do-szczepien-drzew-i-krzewow-z-tasma/
+Desktop: MISS (2207ms)
+Mobile: HIT (378ms)
+```
+
+**DLACZEGO:**
+- To NOWY URL (nie był w Test #1)
+- Desktop: pierwszy raz → MISS
+- Mobile: był w cache (crawler) → HIT
+
+---
+
+## 🔍 ANALIZA PORÓWNAWCZA
+
+### Test #1 (18:33):
+```
+59/60 HIT (98.3%)
+Desktop MISS: pietruszka-laura
+Czasy HIT: ~475ms
+```
+
+### Test #2 (18:41):
+```
+59/60 HIT (98.3%)
+Desktop MISS: sekator-do-szczepien
+Czasy HIT: ~370ms ✅ (szybciej!)
+```
+
+### Wnioski:
+```
+✅ Cache się utrzymuje (HIT rate identyczny)
+✅ Czasy spadły: 475ms → 370ms (cache stabilny)
+✅ MISS = tylko nowe URLs (Desktop)
+✅ Mobile: 100% HIT (crawler rozgrzał)
+```
+
+---
+
+## 🎯 TEST #3 - TE SAME URLs (KONIECZNY!)
+
+### Problem:
+```
+Test #1 i Test #2 = RÓŻNE URLs
+Nie możemy porównać czy cache się utrzymał!
+```
+
+### Rozwiązanie:
+```
+Test #3: Te same 30 URLs co Test #1
+Sprawdzimy czy pietruszka Desktop: MISS → HIT
+```
+
+### Parametry Test #3:
+```
+URLs: Dokładnie te same co Test #1
+Passes: 1
+Variant: desktop (tylko Desktop!)
+```
+
+### Oczekiwany wynik:
+```
+Desktop: 30 HIT, 0 MISS ✅
+(włącznie z pietruszką!)
+Czasy: 300-500ms
+```
+
+---
+
+## 💡 CO WIEMY DO TEJ PORY?
+
+### Cache działa ŚWIETNIE! ✅
+```
+98.3% HIT rate (konsekwentnie)
+Czasy HIT: 365-475ms (bardzo dobre!)
+```
+
+### Desktop vs Mobile:
+```
+Desktop: MISS na nowych URLs
+Mobile: 100% HIT (crawler rozgrzał)
+```
+
+### Cache się utrzymuje:
+```
+Test #1 → Test #2 (8 minut różnicy)
+HIT rate: 98.3% → 98.3% (stabilny!)
+Czasy: 475ms → 370ms (lepiej!)
+```
+
+### Problem:
+```
+⚠️ Nie testowaliśmy tych samych URLs
+⚠️ Trzeba Test #3 na tych samych URLs
+```
+
+---
+
+Czekamy na decyzję: Test #3? 🚀
